@@ -1,7 +1,6 @@
 import unittest
 import functions
 
-
 class TestBatter(unittest.TestCase):
 
     def test_sum(self):
