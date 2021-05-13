@@ -18,7 +18,7 @@ spec:
         runAsUser: 0
       containers:
         - name: jenkins
-          image: jenkins/jenkins:lts
+          image: breathingcat/jenkins
           ports:
             - name: http-port
               containerPort: 8080
