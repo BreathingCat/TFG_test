@@ -7,7 +7,7 @@ class TestBatter(unittest.TestCase):
         self.assertEqual(3, functions.sum_test(1, 2))
 
     def test_sum2(self):
-        self.assertEqual(3, functions.sum_test(1, 2))
+        self.assertEqual(3, functions.sum_test(2, 1))
 
 
 if __name__ == '__main__':
